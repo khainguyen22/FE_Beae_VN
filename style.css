@@ -55,6 +55,12 @@ h6 {
     /* 129.167% */
     text-transform: capitalize;
 }
+.btn-contact:hover {
+    background-color: var(--white-color) !important;
+    border: 1px solid #EC80A0 !important;
+    color: var(--primary-color) !important;
+    transition: all 0.3s ease-in-out;
+}
 
 /* start header */
 .header .header-top {
@@ -114,7 +120,12 @@ h6 {
 .header-main .nav-item .dropdown-menu {
     line-height: 2;
 }
-
+.header-main .nav-item .dropdown-toggle  img{
+    margin-left: 5px;
+}
+.header-main .nav-item .dropdown-toggle::after {
+    display: none;
+}
 .header-main .nav-link {
     color: #000;
     text-align: center;
